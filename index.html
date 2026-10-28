@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIPULACION DOM</title>
+    <link rel="stylesheet" href="resources/Style.css">
+</head>
+<body>
+    <h1 id="title" onclick="eventoTitle()">MANIPULACION</h1>
+    <div class="main-div">
+        imagen ejemplo
+        <img id="imagen" onclick="eventoImagen()" src="resources/imagenes/GokuPibble.jpg" alt="PibbleGoku" width="250px" height="250px">
+     </div>
+     <div class="caja" id="miCaja">
+         <p id="mensaje">Haz click para cambiar de Estado</p>
+         <button id="miBoton" onclick="eventoBoton()" >Cambiar Estado</button>
+
+         <p id="mensaje2">Mensaje que se eliminara</p>
+         <button id="miBoton2" onclick="eventoBoton2()" >Eliminar P2</button>
+    </div>
+    <script src="resources/main.js"></script>
+</body>
+</html>

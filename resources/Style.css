@@ -1,0 +1,10 @@
+.main-div {
+    background-color: #00bcd4;
+    margin-top: 20px;
+}
+
+.caja.activo {
+    background-color: #006064;
+    color: #ffffff;
+}
+
